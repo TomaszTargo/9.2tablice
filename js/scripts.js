@@ -3,19 +3,16 @@
 var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
 var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 
-var allNames = femaleNames.concat(maleNames)
+var allNames = femaleNames.concat(maleNames);
 
 //console.log(allNames);
 
-var newName = 'Pawel';
+var newName = 'Asia';
 
 var indexOfadd = allNames.indexOf(newName);
-
-function addName (allNames, newName){
 	if (allNames.indexOf(newName) === -1) {
-		return(allNames.push(newName))	
-	} 
-
-}
-var result = addName(allNames, newName)
+	allNames.push(newName);
+	} else{
+	var allNames = ('takie imię już jest')	
+	}
 console.log(allNames);
