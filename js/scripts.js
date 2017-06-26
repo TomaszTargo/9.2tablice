@@ -10,9 +10,9 @@ var allNames = femaleNames.concat(maleNames);
 var newName = 'Asia';
 
 var indexOfadd = allNames.indexOf(newName);
-	if (allNames.indexOf(newName) === -1) {
+  if ((indexOfadd) === -1) {
 	allNames.push(newName);
-	} else{
-	var allNames = ('takie imię już jest')	
+	console.log(allNames);
+  } else {
+	console.log('takie imie juz jest');	
 	}
-console.log(allNames);
